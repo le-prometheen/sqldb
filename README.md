@@ -203,7 +203,7 @@ Soon to be ported to Postgres.
                execute the change. It is set up to be executed via the
                alter_table method.
               
-## Rename acolumn/field within a table:
+## Rename a column/field within a table:
 
         db.rename_column(table, column, new_name)
         
@@ -221,4 +221,8 @@ Soon to be ported to Postgres.
                execute the change. It is set up to be executed via the
                alter_table method.
                
-For more information @help(SqlDb)
+For more information: help(SqlDb)
+
+## Author
+
+* @le-prometheen - https://thepromethean.net/
