@@ -1,0 +1,14 @@
+{
+    "dropscript": [
+        "PRAGMA foreign_keys=off;",
+        "BEGIN TRANSACTION;",
+        "CREATE TABLE temp_table({0});",
+        "INSERT INTO temp_table({1})",
+        "SELECT {2} FROM {3};",
+        "DROP TABLE {3};",
+        "ALTER TABLE temp_table RENAME TO {3};",
+        "COMMIT;",
+        "PRAGMA foreign_keys=on;"
+    ]
+
+}
