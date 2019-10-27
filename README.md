@@ -114,8 +114,6 @@ Soon to be ported to Postgres.
             Cross Join:
                 select('artists', '*', target='albums', join='cross')
 
-            select('artists', 'Name', 'Title', target='albums', join='inner', key='id', where='id between 1 and 5')
-
         ARGUMENTS:
 
             table: str:
